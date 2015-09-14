@@ -75,7 +75,32 @@ main.ts:
 ```
 1) Нужно предоставить возможность группировать константы
 2) Предоставить возможность дать комментарий константе или группе констант
-3) 
+```
+Пример конфига
+``` javascript
+  {
+     "consts": {
+        "comments": "Here you can find your application constants",
+        "emails": {
+            "comments": "emails for different configurations",
+            "sellerEmail": {
+                "comments": "seller email, if you testing your app don't use original email!!!",
+                "release": "seller@mail.com",
+                "debug": "myDebugSeller@mail.com",
+                "test": "myTestSeller@mail.com"
+            }
+        },
+        "apiKeys": {
+            "comments": "api keys for different configurations",
+            "googleMapsApiKey": {
+                "comments": "Use another key for testing you google maps, because its very expensive",
+                "release": "asd!22asdjk_eweqwerqw",
+                "debug": "werwqj!2324324",
+                "test": "rwer334225_3423n"
+            }
+        }
+    }
+  }
 ```
 
 
