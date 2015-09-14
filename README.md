@@ -103,6 +103,6 @@ main.ts:
   }
 ```
 
-
+![try](https://github.com/stepancar/TypeScript-consts-generator/blob/master/docs/images/screen.png?raw=true)
  
   
