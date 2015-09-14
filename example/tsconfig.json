@@ -1,0 +1,47 @@
+{
+    "version": "1.5.0-beta",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "isolatedModules": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "./**/*.tsx",
+        "!./node_modules/**/*"
+    ],
+    "files": [
+        "./app.ts",
+        "./constants.ts"
+    ],
+    "consts": {
+        "comments": "Here you can find your application constants",
+        "emails": {
+            "comments": "emails for different configurations",
+            "sellerEmail": {
+                "comments": "seller email, if you testing your app don't use original email!!!",
+                "release": "seller@mail.com",
+                "debug": "myDebugSeller@mail.com",
+                "test": "myTestSeller@mail.com"
+            }
+        },
+        "apiKeys": {
+            "comments": "api keys for different configurations",
+            "googleMapsApiKey": {
+                "comments": "Use another key for testing you google maps, because its very expensive",
+                "release": "asd!22asdjk_eweqwerqw",
+                "debug": "werwqj!2324324",
+                "test": "rwer334225_3423n"
+            }
+        }
+    }
+}
