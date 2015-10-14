@@ -107,3 +107,4 @@ main.ts:
 npm install
 tsconsts generate
 set output paths
+Лучшим вариантом является хранение сгенерированного файла в npm
