@@ -108,3 +108,4 @@ npm install
 tsconsts generate
 set output paths
 Лучшим вариантом является хранение сгенерированного файла в npm
+[ts issue](https://github.com/Microsoft/TypeScript/issues/5376)
